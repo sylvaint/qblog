@@ -218,13 +218,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This notebook validates Spikeet quote data for SP500 stocks with Yahoo and Cloudquant data.<br>
+<p>This notebook attempts to validate Spikeet quote data for SP500 stocks with Yahoo and Cloudquant data.<br>
 Using these data sources, we derive the top 20 daily stock by return close to close daily and intraday, and the bottom 20 by return close to close daily and intraday. We do this for the last 3 years.<br>
 We compare the Yahoo results and the Cloudquant results and find them to be identical except for 2 instances with WBD and EXC. Yahoo is correct in both those cases.<br>
-We then compare Yahoo results with the Spikeet data from 4 different screens as we could not figure out how to do OR logic and needed to run separate tests on Spikeet.<br>
+We then compare Yahoo results with the Spikeet data from 4 different screens as we could not figure out how to do OR logic and needed to run 4 separate screens on Spikeet.<br>
 We found many discrepancies between Yahoo results and Spikeet.<br>
 Almost all Spikeet data was wrong in each of those cases except in one instance.<br>
-For the 20 bottom intraday SP500 for the last 3 years, Spikeet comes up with a list that is more than 30% wrong.</p>
+For the 20 bottom intraday returns from the SP500 in the last 3 years, Spikeet comes up with a list that is more than 30% wrong.</p>
 </section>
 <section id="code" class="level2">
 <h2 class="anchored" data-anchor-id="code">Code</h2>
